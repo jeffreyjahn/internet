@@ -1,0 +1,236 @@
+/* classes:
+red-text
+blue-text
+white-text
+turquoise-text
+gray phone number
+main
+
+id:
+blue button
+orange button
+ad with text and background images
+turquoise button
+phone number
+ */
+
+
+ #tupac{
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    box-sizing: border-box;
+    margin: 0 auto;
+ }
+
+ /* header */
+#header{
+    width: 100%;
+}
+#globe{
+    width: 10%;
+    display: inline-block;
+}
+#title{
+    font-size: 36pt;
+    display: inline-block;
+    vertical-align: 75%;
+}
+#subtitle{
+    font-size: 24pt;
+    background: linear-gradient(#2968a0, #42617c, #2968a0);
+    padding: 20px 10px;
+    margin-top: -25px;
+}
+/* whole body */
+#below-head{
+    background: linear-gradient(lightgray, white 10%);
+    padding: 10px;
+}
+/* left side */
+#left-bar{
+    width: 25%;
+    display:inline-block;
+    padding: 10px;
+}
+#bar-title{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#bar-text{
+font-size: 12pt;
+font-weight: bold;
+margin-bottom: 20px;
+}
+#blue-button{
+    background-color: #2968a0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 5px;
+    box-shadow: 5px 3px 5px black;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-size: 80%;
+    width: 80%;
+}
+#orange-button{
+    background-color: #ee8515;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 5px;
+    box-shadow: 5px 3px 5px black;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-size: 80%;
+    width: 80%;
+}
+#ad{
+    background-image:url(ad_background.png);
+    margin-top:10px;
+    padding-top: 20px;
+    border-top: solid gray 2px;
+    padding: 10px;
+    text-align: center;
+}
+#ad-text{
+    color:white;
+    font-size: 24pt;
+    margin-top: 20%;
+}
+#ad-ninja{
+    width: 30%;
+    margin-bottom: 30px;
+}
+#turquoise-button{
+    background-color: turquoise;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+    box-shadow: 5px 3px 5px black;
+}
+/* body */
+#main-body{
+    width: 70%;
+    display:inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+#main-left{
+    width:20%;
+    display:inline-block;
+}
+#home{
+    display: inline-block;
+    width: 10%;
+    font-weight: bold;
+    vertical-align: auto;
+}
+.home-text{
+    display: inline-block;
+    vertical-align: auto;
+}
+#main-right{
+    display:inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: zero;
+    position: relative;
+    left: 275px;
+}
+#contact-image{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+#contacts{
+    width: 50%;
+    display: inline-block;
+    vertical-align: center;
+}
+.contact-text{
+    color:darkgray;
+    font-size: 8pt;
+}
+#contact-info{
+    color: #40afda;
+    font-size: 24pt;
+}
+#mid-body{
+    border-top: solid black 1px;
+    padding: 10px;
+}
+.mid-text{
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+.mid-list{
+    list-style-type: disc; 
+    margin-left: 40px;
+}
+#mid-img{
+    width: 200px;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+.mid-olist{
+    list-style-type: decimal;
+    margin-left: 40px;
+}
+
+
+#footer{
+    border: solid #2968a0 5px;
+    margin: 5px;
+    padding: 15px;
+}
+.trinity{
+    width: 20%;
+    display: inline-block;
+}
+#feets{
+    width: 75%;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.footer-text{
+    font-size: 10pt;
+}
+/* random styles for text */
+h5{
+    font-size: 14pt;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: #40afda;
+}
+.up-case{
+    text-transform: uppercase;
+    color:white;
+}
+.white-text{
+    color: white;
+}
+.blue-text{
+    color: #2968a0;
+}
+.red-text{
+    color:red;
+}
+
+.bold-text{
+    font-weight:bolder;
+    color: black;
+}
+li{
+    margin-bottom: 8px;
+}
